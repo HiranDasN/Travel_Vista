@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Bungee+Spice&family=DM+Serif+Display&family=Lilita+One&family=Lobster&family=Permanent+Marker&family=Roboto+Slab&family=Roboto:wght@100&family=Sansita:ital@0;1&family=Staatliches&family=Ultra&display=swap');
+.home{
+    position: relative;
+    width: 100%;
+    height:100%;
+    /* background-image: url(./photos/1510582.jpg); */
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./photos/1510582.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+}
+#d1{
+    width: 100%;
+    height: 692px;
+}
+#logo1{
+    color: white;
+    
+    font-size: 40px;
+    font-family: 'Black Ops One', cursive;
+}
+#a1{
+    color: white;
+}
+.link{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;   
+}
+.listitem{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#a1{
+    font-weight: bolder;
+    padding: 10px;
+    font-weight: 500;
+    /* padding: 10px; */
+    border-radius: 4px;
+    transition: ease .40s;   
+}
+#a1:hover{
+    color: rgb(0, 0, 0);
+    background-color:white;
+}
+#h2{
+    font-family: 'Black Ops One', cursive;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#h3{
+    font-family: 'Black Ops One', cursive;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+}
+.txt{
+    padding: 30px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./photos/408131.jpg);
+}
+#ol1{
+    list-style: none;
+}
+
+#srvc{
+    width: 100%;
+}
+#wl{
+    font-family: 'Black Ops One', cursive;
+    margin-top: 60px;
+   
+    text-align: center;
+}
+#at{
+    font-family: 'Sansita', sans-serif;
+    font-size: larger;
+    margin-top: 50px; 
+    text-align: center;
+}
+#at1{
+    font-family: 'Sansita', sans-serif;
+    font-size: larger;
+    margin-top: 55px;
+    
+    text-align: center;
+    margin-bottom:30px;
+}
+#os{
+    font-family: 'Black Ops One', cursive;
+    padding-top: 30px;
+}
+#ol1{
+    font-family: 'Sansita', sans-serif;
+    
+    margin-top: 55px;
+    font-size: larger;
+}
+.txt1 h2{
+    
+    font-size: 40px;
+    font-weight:bolder
+}
+.row1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+.container-box{
+    font-family: 'DM Serif Display', serif;
+    background-color: rgb(249, 212, 197);
+    border: 1px solid rgb(239, 236, 236);
+    padding: 50px 10px;
+    border-radius: 4px;
+    transition: all 2s ease 0;
+    cursor: pointer;
+}
+.container-box p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.container-box:hover{
+    box-shadow: 5px 30px 56px rgb(55 55 55 / 30%);
+    border: 1px solid transparent;
+    transform: translateY(-20px);
+}
+.container-box h4{
+    font-family: 'Staatliches', cursive;
+    padding-top: 10px;
+}
+.txt1{
+    
+    margin-top: 70px;
+}
+.row1{
+    margin-top: 50px;
+}
+.container-cbox h4{
+    font-family: 'Bungee Spice', cursive;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.container-img img{
+    width:160px;
+    height: 100px;;
+}
+.rimg img{
+    border-radius: 30px;
+    height:480px;
+    width: 100%;
+}
+.txt3{
+    
+    text-align: center;
+}
+.price{
+    color: white;
+}
+.rimg h3{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-top: -440px;
+    padding-left: 20px;
+} 
+.txt3 h1{
+    font-family: 'Black Ops One', cursive;
+    padding-bottom: 25px;
+}
+#package{
+    padding-top: 50px;
+}
+.txt3{
+    margin-top: -30px;
+}
+
+.lcn h4{
+    font-weight: 700;
+}
+.lcn span{
+    font-weight: 400;
+}
+.lcn{
+    padding-top: 5px;
+}
+.txt3 h1{
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.rimg:hover{
+  transform: scale(1.06);  
+}
+.packd{
+margin-top: 10px;
+}
+.rbox{
+    margin-bottom: 80px;
+}
+.dimg img{ 
+   
+    border-radius: 30px;
+    height:500px;
+    width: 100%;
+}
+.dimg h4{
+    
+    margin-top: -80px;
+    color: white;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.dimg p{
+    margin-left: 20px;
+    color: white;
+    font-weight: 700;
+}
+.dbox{
+    padding-bottom: 40px;
+}
+.txt4 h1{
+    font-family: 'Black Ops One', cursive;
+    padding-top: 35px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 45px;
+}
+.dimg:hover{
+    
+    transform: scale(1.06);  
+}
+.html{
+    scroll-behavior: smooth;
+}
+#map{
+    border-radius: 10px;
+    width: 200px;
+    height: 170px;
+
+}
+
+.iconn{
+    gap: 1rem;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+}
+.iconn i{
+    color: black;
+    font-size: 30px;
+}
+.iconn :hover i{
+    /* color: white; */
+    animation: shake 0.75s;
+}
+@keyframes shake{
+    10%{
+        transform:rotate(15deg);
+    }
+    20%{
+        transform:rotate(-15deg);
+    }
+    30%{
+        transform:rotate(15deg);
+    }
+    40%{
+        transform:rotate(-15deg);
+    }
+}
+
+.row2 li:hover{
+    transform: translateX(14px);
+}
+
+.ctxt h1{
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    font-weight: bolder; 
+}
+.row2{
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-top: 50px;
+}
+.container-cbox{
+    /* background-color:white;  */
+    background-color:rgb(255, 220, 206);
+    /* background-color: rgb(252, 252, 179); */
+    border: 1px solid rgb(239, 236, 236);
+    padding: 50px 10px;
+    border-radius: 20px;
+    transition: all 2s ease 0;
+    cursor: pointer;
+}
+.container-cbox:hover{
+    box-shadow: 5px 30px 56px rgb(55 55 55 / 30%);
+    border: 1px solid transparent;
+    transform: translateY(-20px);
+}
+#copy{
+    padding: 60px 0px 55px 0px;
+   color: black;
+   font-weight: 600;
+   text-align: center;
+   font-size: large;
+} 
+.ci{
+    font-family: 'Staatliches', cursive;
+    padding-right: 30px;
+    list-style: none;
+}
+#polic{
+    font-family: 'Staatliches', cursive;
+    padding-right: 30px;
+    list-style: none;
+}
+#ic2{
+   padding:72px 40px 72px 40px;
+}
+.arrow-up{
+    display: flex;
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+.arrow-up i{
+        color:black;
+}
+.arrow-up :hover i{
+        color: rgb(255, 0, 0);
+}
+
+  body {
+    animation: theme 21s linear infinite;
+    
+    &:after,
+    &:before {
+        content: '';
+        display: block;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        width: 100vw;  
+        height: 100vh; 
+        width: 100vmax;
+        height: 100vmax;
+        background: rgba(0,0,0,0.05);
+        animation: background 90s linear infinite;
+    }
+
+    &:after {
+        left: 15vw;
+    }
+
+    &:before {
+        right: 15vw;
+        animation-delay: -30s;
+        animation-direction: reverse;
+    }
+}
+
+@keyframes theme {
+    0% {
+        background: #85faae;
+    }
+    
+    16% {
+        background: #66ddd5;
+    }
+    
+    33% {
+        background: #f371fa;
+    }
+    
+    50% {
+        background: #43fb74;
+    }
+    
+    66% {
+        background: #f4617f;
+    }    
+    
+    83% {
+        background: #dbee38;
+    }
+
+    100% {
+        background: #75fbf9;
+    }
+}
+
+@keyframes background {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+body {
+  margin-top: 13.5rem;
+  color: #999;
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  text-align: center;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+  -moz-animation: bg-scrolling-reverse 0.92s infinite;
+  -o-animation: bg-scrolling-reverse 0.92s infinite;
+  animation: bg-scrolling-reverse 0.92s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+body::before {
+  font-size: 8rem;
+  font-weight: 100;
+  font-style: normal;
+}
+#trvl{
+    padding-top: 30px;
+    margin-bottom: -60px;
+}
+.carsel{
+    padding-top: 20px;
+}
